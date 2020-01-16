@@ -1,5 +1,6 @@
 package com.dj.array;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class LeftRotationOfArray2 {
@@ -9,7 +10,7 @@ public class LeftRotationOfArray2 {
 		Scanner in = new Scanner(System.in);
 		int t = in.nextInt();
 		
-		while(t-->0)
+		while(t-- > 0)
 		{
 			int n = in.nextInt();
 			int d = in.nextInt();
@@ -35,6 +36,5 @@ public class LeftRotationOfArray2 {
 			
 			System.out.println(sb);
 		}
-		
 	}
 }
