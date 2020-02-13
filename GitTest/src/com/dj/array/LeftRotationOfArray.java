@@ -1,6 +1,10 @@
 package com.dj.array;
 
 import java.util.Arrays;
+import java.util.Scanner;
+
+import javax.print.DocFlavor.STRING;
+import javax.swing.text.StringContent;
 /**
  * Write a program to left rotate elements of an array for
  * a specified number of times.   
@@ -37,11 +41,46 @@ public class LeftRotationOfArray {
 	}
 	
 	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String t = sc.nextLine();
+		
+		for(int i = 0; i<Integer.parseInt(t); i++)
+		{
+			String s = sc.nextLine();
+			String arrInput = sc.nextLine();
+			
+			String[] sa = s.split(" ");
+			int len = Integer.parseInt(sa[0]);
+			//construct the array
+			String[] arrInput2 = arrInput.split(" ");
+			
+			int[] arr = new int[len];
+			for(int j = 0; j < len; j++)
+			{
+				arr[j] = Integer.parseInt(arrInput2[j]);
+			}
+			
+			int d = Integer.parseInt(sa[1]);
+			arr = leftRotateArray(arr, d);
+			
+			for(int k = 0; k < arr.length; k++)
+			{
+				System.out.print(arr[k]+" ");
+			}
+			System.out.println();
+		}
+		
+		
+		
+		
+		
+		
 		// left rotate an array 2 times
-		int[] arr = {1, 2, 3, 4, 5, 6, 7}; 
+		//int[] arr = {1, 2, 3, 4, 5, 6, 7}; 
 		// input > {1, 2, 3, 4, 5, 6, 7}
 		// output > {3, 4, 5, 6, 7, 1, 2}
-		arr = leftRotateArray(arr, 2);
-		System.out.println(Arrays.toString(arr));
+		
+		
+		sc.close();
 	}
 }

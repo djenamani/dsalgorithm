@@ -16,7 +16,7 @@ public class LeftRotationOfArray2 {
 			int d = in.nextInt();
 			
 			int[] arr = new int[n];
-			// left rotate the remaining array 
+			// add the elements to the array provided in input  
 			for(int i = 0; i < n; i++)
 			{
 				arr[i] = in.nextInt(); 
