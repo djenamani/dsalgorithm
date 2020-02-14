@@ -4,7 +4,7 @@ package com.dj.array;
  * Given the string, check if it is a palindrome.
  * Palindrome is the word or a phrase which reads same backward as forward.
  * 
- * @author djenaman
+ * @author djenamani
  *
  */
 public class Palindrome {
