@@ -13,7 +13,6 @@ public class Palindrome {
 	{
 		char[] cs = input.toCharArray();
 		char[] temp = cs;
-		
 		int j = 0;
 		// traversal from last index of the string array
 		for(int i = cs.length -1 ; i >= 0; i--)
