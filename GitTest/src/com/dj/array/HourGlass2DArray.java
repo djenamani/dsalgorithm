@@ -5,7 +5,7 @@ public class HourGlass2DArray {
 	
 	public static void printArray(int[][] aInArray)
 	{
-		// print the hour glass array
+		// print the hour glass array from Git repo
 		
 	}
 	
