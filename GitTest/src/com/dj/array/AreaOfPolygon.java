@@ -2,7 +2,6 @@ package com.dj.array;
 
 public class AreaOfPolygon {
 
-	
 	static int shapeArea(int n) {
 	    // the formula for calculating the area of polygon is
 	    // n**2 + (n-1)**2

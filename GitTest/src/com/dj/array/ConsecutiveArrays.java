@@ -19,6 +19,7 @@ import java.util.Arrays;
  */
 public class ConsecutiveArrays {
 
+	
 	static int makeArrayConsecutive2(int[] statues) {
 	    // count the missing statues and return the counter
 	    int counter = 0;
